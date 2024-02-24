@@ -1,0 +1,9 @@
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: white; 
+}
+
+.image{
+  border-radius: 60px;
+}
+
