@@ -1,47 +1,46 @@
 .custom-button-group {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px; 
-  }
-  
-  .navbar {
-    /* background-color: #6c757d; */
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: -10px;
-    /* max-width: calc(100% - 100px); */
-    width: 100%;
-  }
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
 
-  /* .navigation{
+.navbar {
+  /* background-color: #6c757d; */
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -10px;
+  /* max-width: calc(100% - 100px); */
+  width: 100%;
+}
+
+/* .navigation{
  
   } */
 
 .card {
-    width: 15rem;
-    margin: 10px;
-    position: relative;
+  width: 15rem;
+  margin: 10px;
+  position: relative;
 }
 
 .card:hover {
-    cursor: pointer;
-    border: 2px solid #ccc;
-    transition: all 0.2s;
-    transform: scale(1.1); /* Increase the scale for a subtle zoom effect */
+  cursor: pointer;
+  border: 2px solid #ccc;
+  transition: all 0.2s;
+  transform: scale(1.1);
+  /* Increase the scale for a subtle zoom effect */
 }
 
-  
-  .card .image {
-    width: 70px;
-    justify-content: center;
-    /* position: relative; */
-    margin-top: 20px;
-    margin-left: 10px;
-    /* padding: 20px; */
-  }
 
-  .bold-text {
-    font-weight: 800;
-  }
-  
-  
+.card .image {
+  width: 70px;
+  justify-content: center;
+  /* position: relative; */
+  margin-top: 20px;
+  margin-left: 10px;
+  /* padding: 20px; */
+}
+
+.bold-text {
+  font-weight: 800;
+}
